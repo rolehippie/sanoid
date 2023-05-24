@@ -1,0 +1,24 @@
+# Standards: 1.2
+---
+# @var sanoid_datasets:description: List of datasets
+# @var sanoid_datasets:example: >
+# sanoid_datasets:
+#   - name: rpool/USERDATA
+#     use_template: general
+#     recursive: True
+#     process_children_only: True
+# @end
+sanoid_datasets: []
+
+# @var sanoid_templates:description: List of templates
+sanoid_templates:
+  - name: general
+    frequently: 0
+    hourly: 24
+    daily: 7
+    monthly: 12
+    yearly: 0
+    autosnap: True
+    autoprune: True
+
+...

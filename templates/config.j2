@@ -1,0 +1,15 @@
+{% for dataset in sanoid_datasets %}{% set dataset_name = dataset.pop('name') %}
+[{{ dataset_name }}]
+{% for key, value in dataset.items() %}
+    {{ key }} = {% if value is boolean %}{{ 'yes' if value else 'no' }}{% else %}{{ value }}{% endif %}
+
+{% endfor %}
+{% endfor %}
+{% for template in sanoid_templates %}{% set template_name = template.pop('name') %}
+
+[template_{{ template_name }}]
+{% for key, value in template.items() %}
+    {{ key }} = {% if value is boolean %}{{ 'yes' if value else 'no' }}{% else %}{{ value }}{% endif %}
+
+{% endfor %}
+{% endfor %}
