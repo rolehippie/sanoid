@@ -1,16 +1,15 @@
-# Standards: 1.2
 ---
 - name: Install required packages
   loop:
     - sanoid
-  package:
+  ansible.builtin.package:
     name: "{{ item }}"
     state: present
   tags:
     - sanoid
 
 - name: Create config dir
-  file:
+  ansible.builtin.file:
     name: /etc/sanoid
     owner: root
     group: root
@@ -22,7 +21,7 @@
 - name: Write config file
   notify:
     - Restart sanoid
-  template:
+  ansible.builtin.template:
     src: config.j2
     dest: /etc/sanoid/sanoid.conf
     owner: root
@@ -32,7 +31,7 @@
     - sanoid
 
 - name: Start sanoid service
-  systemd:
+  ansible.builtin.systemd:
     name: sanoid
     state: started
     daemon_reload: True
