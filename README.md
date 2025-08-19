@@ -1,4 +1,4 @@
-# sanoid
+# workspace
 
 [![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&logoColor=white)](https://github.com/rolehippie/sanoid)
 [![General Workflow](https://github.com/rolehippie/sanoid/actions/workflows/general.yml/badge.svg)](https://github.com/rolehippie/sanoid/actions/workflows/general.yml)
@@ -73,7 +73,6 @@ sanoid_templates:
 ## Discovered Tags
 
 **_sanoid_**
-
 
 ## Dependencies
 
