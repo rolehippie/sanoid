@@ -1,4 +1,5 @@
 ---
-role_name: sanoid
+role:
+  name: sanoid
 
 ...
