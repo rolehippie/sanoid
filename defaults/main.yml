@@ -4,8 +4,8 @@
 # sanoid_datasets:
 #   - name: rpool/USERDATA
 #     use_template: general
-#     recursive: True
-#     process_children_only: True
+#     recursive: true
+#     process_children_only: true
 # @end
 sanoid_datasets: []
 
@@ -17,7 +17,7 @@ sanoid_templates:
     daily: 7
     monthly: 12
     yearly: 0
-    autosnap: True
-    autoprune: True
+    autosnap: true
+    autoprune: true
 
 ...

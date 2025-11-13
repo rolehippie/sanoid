@@ -1,4 +1,4 @@
-# workspace
+# sanoid
 
 [![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&logoColor=white)](https://github.com/rolehippie/sanoid)
 [![General Workflow](https://github.com/rolehippie/sanoid/actions/workflows/general.yml/badge.svg)](https://github.com/rolehippie/sanoid/actions/workflows/general.yml)
@@ -48,8 +48,8 @@ sanoid_datasets: []
 sanoid_datasets:
   - name: rpool/USERDATA
     use_template: general
-    recursive: True
-    process_children_only: True
+    recursive: true
+    process_children_only: true
 ```
 
 ### sanoid_templates
