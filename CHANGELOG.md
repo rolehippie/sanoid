@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/rolehippie/sanoid/compare/v2.0.0...v2.1.0) (2025-11-17)
+
+
+### Features
+
+* apply new repo structure and update linting ([af9cdfa](https://github.com/rolehippie/sanoid/commit/af9cdfa552c036a74351a2675bf0ff922950cc42))
+
 ## [2.0.0](https://github.com/rolehippie/sanoid/compare/v1.0.0...v2.0.0) (2024-02-12)
 
 
