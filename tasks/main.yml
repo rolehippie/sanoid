@@ -30,9 +30,9 @@
   tags:
     - sanoid
 
-- name: Start sanoid service
+- name: Start sanoid timer
   ansible.builtin.systemd:
-    name: sanoid
+    name: sanoid.timer
     state: started
     daemon_reload: true
     masked: false
