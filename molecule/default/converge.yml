@@ -1,7 +1,11 @@
 ---
 - name: Converge
   hosts: all
+  vars:
+    modprobe_general:
+      - zfs
   roles:
+    - role: rolehippie.modprobe
     - role: rolehippie.sanoid
 
 ...
