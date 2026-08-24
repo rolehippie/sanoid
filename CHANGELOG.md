@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.3.0](https://github.com/rolehippie/sanoid/compare/v2.2.0...v2.3.0) (2026-08-24)
+
+### Bugfixes
+
+* start time instead of service ([4d4828a](https://github.com/rolehippie/sanoid/commit/4d4828a742e6ca72f7c5503d8ebfa38ead4d5839))
+
+### Dependencies
+
+* **minor:** update dependency pipx:molecule to v26.8.0 ([#42](https://github.com/rolehippie/sanoid/issues/42)) ([15651fc](https://github.com/rolehippie/sanoid/commit/15651fc0090c0d0f4f41db9d0beb4abd29b43e93))
+
 ## [2.2.0](https://github.com/rolehippie/sanoid/compare/v2.1.0...v2.2.0) (2026-07-27)
 
 ## [2.1.0](https://github.com/rolehippie/sanoid/compare/v2.0.0...v2.1.0) (2025-11-17)
