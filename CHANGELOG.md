@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.4.0](https://github.com/rolehippie/sanoid/compare/v2.3.0...v2.4.0) (2026-08-31)
+
+### Dependencies
+
+* **minor:** update dependency pipx:ansible-doctor to v8.4.0 ([#38](https://github.com/rolehippie/sanoid/issues/38)) ([8028d37](https://github.com/rolehippie/sanoid/commit/8028d3796072d82f06a7e48f2bf2cd0e74b43ba5))
+* **patch:** update dependency pipx:ansible-core to v2.21.3 ([#39](https://github.com/rolehippie/sanoid/issues/39)) ([2b284ea](https://github.com/rolehippie/sanoid/commit/2b284eaf2c0868bd0a6c5db61f3d73ab5a90101d))
+* **patch:** update dependency pre-commit to v4.6.2 ([#40](https://github.com/rolehippie/sanoid/issues/40)) ([30ef5bb](https://github.com/rolehippie/sanoid/commit/30ef5bba11a4d7b702da96e9c9beb66dc0a94c55))
+
 ## [2.3.0](https://github.com/rolehippie/sanoid/compare/v2.2.0...v2.3.0) (2026-08-24)
 
 ### Bugfixes
