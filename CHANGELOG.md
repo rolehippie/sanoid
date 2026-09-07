@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.5.0](https://github.com/rolehippie/sanoid/compare/v2.4.0...v2.5.0) (2026-09-07)
+
+### Dependencies
+
+* **minor:** update dependency community.crypto to >=3.4.0,<3.5.0 ([#44](https://github.com/rolehippie/sanoid/issues/44)) ([86c88b4](https://github.com/rolehippie/sanoid/commit/86c88b4a59ac6b6427e183c8a914049f27062766))
+* **minor:** update dependency pipx:ansible-lint to v26.8.0 ([#41](https://github.com/rolehippie/sanoid/issues/41)) ([dd692a3](https://github.com/rolehippie/sanoid/commit/dd692a3e38b0ec12a6e9457f43659245604997d0))
+
 ## [2.4.0](https://github.com/rolehippie/sanoid/compare/v2.3.0...v2.4.0) (2026-08-31)
 
 ### Dependencies
