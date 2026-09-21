@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.6.0](https://github.com/rolehippie/sanoid/compare/v2.5.0...v2.6.0) (2026-09-21)
+
+### Dependencies
+
+* **minor:** update dependency hetzner.hcloud to >=7.1.0,<7.2.0 ([0f3c976](https://github.com/rolehippie/sanoid/commit/0f3c9762529b3a1621646f80046dcb312727d612))
+* **mise:** update dependency prek to v0.5.3 ([029b3f4](https://github.com/rolehippie/sanoid/commit/029b3f4c804c11e9a28e5b3af338ad44945c2a50))
+
 ## [2.5.0](https://github.com/rolehippie/sanoid/compare/v2.4.0...v2.5.0) (2026-09-07)
 
 ### Dependencies
